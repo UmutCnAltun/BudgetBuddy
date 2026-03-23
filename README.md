@@ -28,28 +28,29 @@ Projeyi yerel makinenizde çalıştırmak için:
 
 Projeyi klonlayın:
 
-'''
+```
 git clone https://github.com/UmutCnAltun/BudgetBuddy.git
-'''
+```
 
 Sanal bir çalışma ortamı oluşturun ve aktif edin: 
 
-'''
+```
 python3 -m venv .venv
 .venv\\Scripts\\activate
-'''
+```
 
 Gerekli kütüphaneleri yükleyin:
 
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
 Uygulamayı başlatın:
 
-'''
+```
 streamlit run app.py
-'''
+```
+
 ## 📊 Neden BudgetBuddy?
 
 Bütçe yönetimi karmaşık tablolardan ibaret olmamalıdır. BudgetBuddy, karmaşık verileri anlamlı görsellere dönüştürerek finansal okuryazarlığınızı artırır ve bütçenizi kontrol altında tutmanızı sağlar.
